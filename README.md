@@ -113,6 +113,49 @@ npm start
 
 ---
 
+⚠️ Como executar o projeto
+
+Para o funcionamento correto do sistema, é necessário rodar o front-end e o back-end separadamente.
+
+O projeto está dividido em duas pastas:
+
+📁 Origin-Kontroli-React → Front-end (React)
+📁 server** → Back-end (API)
+
+---
+
+▶️ Passo a passo
+
+Abra duas janelas do VS Code:
+
+---
+
+💻 1. Rodar o Front-end
+
+```bash
+cd Origin-Kontroli-React
+npm install
+npm start
+```
+
+---
+
+⚙️ 2. Rodar o Back-end
+
+```bash
+cd server
+npm install
+npm run dev
+```
+
+---
+
+💡 Importante:
+As duas aplicações precisam estar rodando ao mesmo tempo para que o sistema funcione corretamente, garantindo a comunicação entre interface, API e banco de dados.
+
+
+---
+
 👩‍💻 Sobre a desenvolvedora
 
 Paula Trefiglio Mendes Gomes
